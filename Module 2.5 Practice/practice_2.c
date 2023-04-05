@@ -1,12 +1,12 @@
 #include<stdio.h>
-int main()
-{
-    int a,b,sum,sub,mil,divi;
-    scanf("%d%d",&a,&b);
-    sum=a+b;
-    sub=a-b;
-    mil=a*b;
-    divi=(a*0.2)/b;
-    printf("%d+%d=%d\n%d-%d=%d\n%d*%d=%d\n%d/%d=%d",a,b,sum,a,b,sub,a,b,mil,a,b,divi);
+int main(){
+int x,y;
+scanf("%d %d",&x,&y);
+printf("%d+%d=%d\n",x,y,x+y);
+printf("%d-%d=%d\n",x,y,x-y);
+printf("%d*%d=%d\n",x,y,x*y);
+printf("%d/%d=%.2f\n",x,y,(float)x/y);
+
+
     return 0;
 }
