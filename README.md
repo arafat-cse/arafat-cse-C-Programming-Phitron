@@ -1,24 +1,62 @@
 # arafat-cse-C-Programming-Phitron
 arafat-cse/C-Programming-Phitron Batch 3
-
-# Hints: 
-# তোমাকে দুইটি সংখ্যা a এবং b দিবে। তোমাকে a-b অর্থাৎ সংখ্যা দুটির বিয়োগফল প্রিন্ট করতে হবে।এখানে একটা কিন্তু আছে। সেটা হলো a-b প্রিন্ট করবে যদি বিয়োগফল ০ বা এর চেয়ে বড় হয়।  এর চেয়ে ছোট হয়ে গেলে ০ ই প্রিন্ট করতে হবে। বুঝছো! 
+# Module 1
+## data_type
 ```c
 #include<stdio.h>
 int main()
 {
-
-    int a,b,div;
-    scanf("%d%d",&a,&b);
-        div=a-b;
-            if (div>0)
-            {
-                printf("%d",div);
-            }
-            else{
-                printf("0");
-            } 
-     
+    int a=10;
+    float b=4.5;
+    char c ='Z';
+    printf("%d\n%0.2f\n%c\n",a,b,c);
+    
     return 0;
 }
 ```
+##input_type
+```c
+#include<stdio.h>
+int main()
+{
+    int a;
+    float b;
+    char c;
+    scanf("%d %f %c",&a,&b,&c);
+    printf("%d %0.3f %c ",a,b,c);
+
+    return 0;
+}
+```
+## Modula 
+```c
+#include<sddl.h>>
+int main()
+{
+    int a,b ,sum;
+    scanf("%d%% %d%% ",&a,&b);
+    sum=a/b;
+    printf("%d%% / %d%%= %d%%",a,b,sum);
+
+    return 0;
+}
+```
+## Print
+```c
+
+#include<stdio.h>
+int main()
+{
+    printf("Hello World....\n");
+    printf("I am a Programmar\n");
+    printf("\\\n");
+    printf("%%\n");
+    printf("I am BSc Engineer study in\n\t    Southeast University");
+
+    return 0;
+}
+```
+
+
+
+
